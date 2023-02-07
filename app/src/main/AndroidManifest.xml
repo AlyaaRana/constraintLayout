@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Constraintrelative_layout"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".RelativeLayout"
             android:exported="false">
             <meta-data
