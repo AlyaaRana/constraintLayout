@@ -36,13 +36,11 @@ public class RelativeLayout extends AppCompatActivity {
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String name = Name.getText().toString();
-                String age = Age.getText().toString();
-                String comment = Comment.getText().toString();
                 Intent intent = new Intent(RelativeLayout.this,MainActivity.class);
-                intent.putExtra("NAME", String.valueOf(Name));
-                intent.putExtra("AGE", String.valueOf(Age));
-                intent.putExtra("COMMENT", String.valueOf(Comment));
+
+                intent.putExtra("Name",Name.getText().toString());
+                intent.putExtra("Age",Age.getText().toString());
+                intent.putExtra("Comment",Comment.getText().toString());
                 startActivity(intent);
             }
         });
