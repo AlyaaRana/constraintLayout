@@ -16,8 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ConstraintLayout extends AppCompatActivity {
 
     //list widget yg dikenakan aksi
-    TextView usn;
-    TextView pw;
+    EditText usn;
+    EditText pw;
     Button send;
 
     @SuppressLint("MissingInflatedId")

@@ -6,41 +6,93 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/lavender_bg">
+
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="65dp"
-        android:text="HASIL DATA"
-        android:textStyle="bold"
-        android:textSize="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20mm"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
         android:gravity="center"
-        android:fontFamily="@font/monoglyceride"/>
+        android:text="DATA RESULT"
+        android:textColor="#CB8B45EF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
     <TextView
-        android:textSize="25dp"
-        android:fontFamily="@font/regular"
         android:id="@+id/outputName"
-        android:layout_width="400dp"
-        android:layout_height="70dp"
-        android:text="Nama : "/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="45dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/drawabel_bg"
+        android:text="Nama: "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197"/>
+
     <TextView
-        android:textSize="25dp"
-        android:fontFamily="@font/regular"
         android:id="@+id/outputAge"
-        android:layout_width="400dp"
-        android:layout_height="70dp"
-        android:text="Umur : "/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="45dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/drawabel_bg"
+        android:text="Age: "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197"/>
+
     <TextView
-        android:textSize="25dp"
-        android:fontFamily="@font/regular"
         android:id="@+id/outputComent"
-        android:layout_width="400dp"
-        android:layout_height="70dp"
-        android:text="Comment : "/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="45dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/drawabel_bg"
+        android:text="Comment: "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197"/>
+
     <TextView
-        android:fontFamily="@font/regular"
-        android:text="'Thanks for u'r attention, have a nice day (^^)
-don't forget me and i love u to the moon and go to back!!'"
-        android:layout_width="400dp"
-        android:layout_height="75dp"
-        android:textSize="20dp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25mm"
+        android:gravity="center"
+        android:text="Thank You"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
 </LinearLayout>
