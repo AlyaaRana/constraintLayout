@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart(){
         super.onStart();
         intent = getIntent();
-        outputName.setText("Nama : "+intent.getStringExtra("Name"));
-        outputAge.setText("Nama : "+intent.getStringExtra("Age"));
-        outputComment.setText("Nama : "+intent.getStringExtra("Comment"));
+        outputName.setText("Name : "+intent.getStringExtra("Name"));
+        outputAge.setText("Age : "+intent.getStringExtra("Age"));
+        outputComment.setText("Comment : "+intent.getStringExtra("Comment"));
     }
 }

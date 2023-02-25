@@ -24,9 +24,6 @@ public class RelativeLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_relative_layout);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Form");
-
         //connect komponen
         Name = (EditText)findViewById(R.id.inputName);
         Age = (EditText)findViewById(R.id.inputAge);
